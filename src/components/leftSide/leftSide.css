@@ -1,0 +1,64 @@
+.left-side{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+   /* position: fixed;
+    top: 50px;*/
+}
+
+.left-side .btn{
+    background-color: #1DA1F2;
+    text-align: center;
+    padding: 12px 0;
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    
+}
+.left-side .btn:hover{
+    background-color: #1b8bd1;
+}
+
+.left-side .btn > button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.personal-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 20px;
+    transition: ease-in-out 0.15s;
+}
+.personal-info:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+    border-radius: 120px;
+    width: fit-content;
+}
+.personal-info .img > img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.personal-info .info{
+    margin-right: 10px;
+}
+
+.personal-info .info > span{
+    color: gray;
+}

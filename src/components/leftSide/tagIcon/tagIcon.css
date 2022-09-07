@@ -1,0 +1,23 @@
+.tag-icon{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+}
+.tag-icon:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+    border-radius: 120px;
+    padding: 0 10px;
+    width: fit-content;
+}
+.tag-icon .icon{
+    font-size: 30px !important;
+    margin-right: 15px;
+}
+
+.tag-icon .title{
+    font-size: 22px;
+    font-weight: normal;
+    
+}

@@ -1,0 +1,9 @@
+.post-icon .icon{
+    color: #1DA1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+

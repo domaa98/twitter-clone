@@ -1,0 +1,10 @@
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.rightSide h2{
+    margin-bottom: 20px;
+}
